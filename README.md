@@ -1,12 +1,12 @@
 # MINDS_Kanika_Jindal
 MINDS project submission by Kanika Jindal.
 
-To run the code:
+## To run the code:
 Run the .ipynb file. I worked on Google colab, so the environment is Google colab environment.
 
 The two attached png's contain the diagrams. 
 
-Results:
+## Results:
 1) Collected the data from the given source. 
 2) Created data.json from the data where key is the "article title" and value is the "article paragraph".
 3) I started by doing preprocessing on the title and the paragraphs separately. 
@@ -15,9 +15,9 @@ Results:
 5) I used off-the-shelf library to produce sentiment analysis report. 
 6) Used NLTK to get polarity scores using Nltk's SentimentIntensityAnalyzer.
 
-The results suggest that most of the articles collected are neutral. On analysing further, it can be seen that use of words such as "extends" increase the positive score.
+## The results suggest that most of the articles collected are neutral. On analysing further, it can be seen that use of words such as "extends" increase the positive score.
 
-RESULT ON PARAGRAPHS:
+## RESULT ON PARAGRAPHS:
 The score for "floods happening month torrential rains killed people kwazulu natal province".... article paragraph is: {'neg': 0.164, 'neu': 0.768, 'pos': 0.068, 'compound': -0.9816}, 
 
 The score for "recent years southern africa suffered repeated devastating cyclones scientists believe".... article paragraph is: {'neg': 0.346, 'neu': 0.642, 'pos': 0.012, 'compound': -0.9933}, 
